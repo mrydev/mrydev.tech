@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Tilt Neon', cursive;
+}
+
+
+
+body {
+	background-color: #1e1e1e;
+    background-image: radial-gradient(#A799CC, 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+nav li a {
+    float: left;
+    display: block;
+    color: #eeeeee;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .mail {
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+  }
+  .navtext {
+    margin-top: 1.5rem;
+    margin-right: 5rem;
+    float: right ;
+  }
+  
+nav img {
+    float: left;
+    border-radius: 100%;
+    width: 72px;
+    height: 72px;
+    margin: 1rem 0 0 2rem;
+}
+br {
+    color: aliceblue;
+}
+.main {
+    padding-top: 10rem;
+   flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main img {
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 1rem;
+
+}
+.main h1{
+    color: #eeeeee;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.main h2{
+    color: #eeeeee;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.main button {
+    height: 50px;
+    width: 200px;
+    background-color: #1a1a1a;
+    color: #eeeeee;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.main button:hover {
+    background-color: #A799CC;
+    color: #eeeeee;
+    transition: 0.3s;
+}
+
+.main .extra {
+    height: 270px;
+    width: 180px;
+    border-radius: 16px;
+    background-color: #1a1a1a;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #eeeeee;
+    
+}
+.main .extra h3 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+.main .extra p {
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
